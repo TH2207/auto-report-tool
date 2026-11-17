@@ -11,10 +11,12 @@ Python（Requests / BeautifulSoup / Pandas / Openpyxl）および Streamlit を�
 
 ## 📁 フォルダ構成
 
+```text
 auto_report_tool/
-├── app.py # Streamlit Webアプリ本体
-├── collector.py # データ収集モジュール
-├── processor.py # バリデーション・整形モジュール
-├── exporter.py # Excel装飾・出力モジュール
+├── app.py           # Streamlit Webアプリ本体
+├── collector.py     # データ収集モジュール
+├── processor.py     # バリデーション・整形モジュール
+├── exporter.py      # Excel装飾・出力モジュール
 ├── requirements.txt # 必要ライブラリ一覧
-└── .gitignore # 除外設定
+└── .gitignore       # 除外設定
+```
